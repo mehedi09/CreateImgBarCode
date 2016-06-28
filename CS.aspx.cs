@@ -21,8 +21,7 @@ public partial class CS : System.Web.UI.Page
         try
         {
             DataTable dtStudentCode= new DataTable();
-            //string SQLHomeStory = "SELECT [InstituteInfoID],[InstituteNameB],[InstituteName],[Address],[AddressB],[EmailAddress],[ContactNo],[Active],[HistoryPageStory],[HistoryPageImage]";
-            //SQLHomeStory += " FROM [InstituteInfo] Where Active=1";
+          
             string SQLCode = " SELECT StudentCode FROM Student";
            
             if (conn.State == 0)
